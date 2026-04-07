@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://Bhoomis:$HF_TOKEN@huggingface.co/spaces/Bhoomis/rl-chatbot-agent2 main
+        run: git push --force https://Bhoomis:$HF_TOKEN@huggingface.co/spaces/Bhoomis/rl-chatbot-agent-phase1 main
